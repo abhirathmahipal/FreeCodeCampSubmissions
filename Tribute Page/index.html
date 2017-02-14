@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px" />
+
+    <title>Tribute Page</title>
+    <style>
+    #content-container, body {
+    text-align:center;
+    letter-spacing: 1px;
+    background-color: #FFFCCD;
+    color: #7F5A29;
+    line-height: 1.5;  
+    }
+    h1 {
+    font-family: 'Open Sans', serif;
+
+    }
+
+    p {
+    font-family: 'Slabo 27px', serif;
+    width:60%;
+    margin: 20px auto 20px auto;
+    }
+
+    h2 {
+    font-family: 'Slabo 27px', serif;
+
+    }
+
+    img {
+    margin: 20px auto 20px auto;
+    border-radius: 100px;
+    heigth: 200px;
+    width: 200px;
+    }
+
+    #timeline {
+    text-align:center;
+    width:70%;
+    margin: 20px auto 20px auto;
+    }
+    #timeline li {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    width:50%;
+    border-radius: 10px;
+    height: 60px;
+    padding: 3px;
+    font-family: 'Slabo 27px', serif;
+    color: #234C0E;
+    }
+
+    /* Targetting odd child elements */
+    .time-item:nth-child(even) {  
+    background-color:aqua; 
+    margin-left:50%;
+    background-color: #E3635F;
+    }
+
+    /* Targetting even child elements */
+    .time-item:nth-child(odd) {
+    background-color:red;
+    margin-left:0;
+    background-color: #B0C2DF;
+    
+    }
+    </style>
+</head>
+<body>
+<div id="content-container">
+    <h1>Amazing Grace</h1>
+    <h2>The women who ushered computer science into it's next era</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Grace_Hopper_and_UNIVAC.jpg/220px-Grace_Hopper_and_UNIVAC.jpg" alt="amazing-grace-photo"/>
+
+    <h2>Accomplishments</h2>
+
+    <p>I've stripped the following content from Wikipedia</p>
+    <ul id="timeline">
+    <li class="time-item">She was a computer scientist and United States Navy Rear Admiral</li>
+    <li class="time-item">One of the first programmers of the Harvard Mark 1</li>
+    <li class="time-item">Invented the first compiler for a computer programming language</li>
+    <li class="time-item">She popularised the idea of machine-independent programming languages</li>
+    <li class="time-item">She popularised use of the term bug in reference to computer software or hardware design failures</li>  
+    <li class="time-item">She feels the most important thing she did was train young people
+    <li class="time-item">She was a senior consultant at Digital Equipment Corporation until her death</li>
+    </ul>
+
+    <p>My tiny tribute page hardly does any justice to the great legend. There's much more to know. I am sure you'll find her life inspiring as well. You can read more about Amazing Grace on 
+    <a href="https://en.wikipedia.org/wiki/Grace_Hopper" target="_blank">Wikipedia</a>.</p>
+</div>
+</body>
+
+</html>
